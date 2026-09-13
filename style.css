@@ -1,0 +1,1870 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+}
+
+.register-container {
+    width: 100%;
+    background-image: url("./images/register.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    background-color: white;
+}
+
+/* Partie gauche */
+
+.register-image {
+    width: 51%;
+    min-height: 100vh;
+
+    
+  
+}
+
+/* Partie droite */
+
+.register-form {
+    width: 50%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+}
+
+.register-content {
+    width: 100%;
+    max-width: 290px;
+}
+
+
+
+.register-content h1 {
+    text-align: center;
+
+    font-size: 200%;
+    font-weight: 700;
+
+    color: #102f63;
+
+    margin-bottom: 38px;
+}
+
+
+
+.form-group {
+    margin-bottom: 8%;
+}
+
+
+.form-group label {
+    display: block;
+
+    font-size: 100%;
+    color: #16376b;
+
+    margin-bottom: 7px;
+}
+
+/* Input */
+
+.form-group input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #d9dee7;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 80%;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #397bea;
+}
+
+/* Password */
+
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 35px;
+}
+
+/* Button */
+
+.register-button {
+    width: 100%;
+    height: 35px;
+
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #102f63;
+    color: white;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #17427f;
+}
+
+.menu-button {
+    display: none;
+
+    border: none;
+    background: transparent;
+
+    color: #102f63;
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100%;
+    height: 68px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 10px;
+
+    background-color: #dbeafe;
+}
+
+/* Logo */
+.navbar-logo {
+    width: 65px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.navbar-logo span:first-child {
+    color: #102f63;
+}
+
+.navbar-logo span:last-child {
+    color: #2563eb;
+}
+
+
+.navbar-links {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-left: 10px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+
+    color: #102f63;
+
+    font-size: 21px;
+    font-weight: 400;
+}
+
+/* Logout */
+.logout-btn {
+    width: 140px;
+    height: 38px;
+
+    border: none;
+    border-radius: 12px;
+
+    background-color: #102f63;
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #17427f;
+}
+
+/* -------------------login-----------------*/
+
+.login-container {
+    width: 100%;
+    min-height: 100vh;
+     background-image: url("./images/login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    background-color: white;
+}
+
+/* Image gauche */
+
+.login-image {
+    width: 50%;
+    min-height: 100vh;
+
+   
+}
+
+/* Partie formulaire */
+
+.login-form-container {
+    width: 50%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenu */
+
+.login-content {
+    width: 50%;
+    max-width: 100%;
+}
+
+/* Titre */
+
+.login-content h1 {
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #102f63;
+
+    font-size: 200%;
+    font-weight: 700;
+}
+
+/* Groupe */
+
+.login-form-group {
+    margin-bottom: 20px;
+}
+
+/* Label */
+
+.login-form-group label {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #16376b;
+
+    font-size: 9px;
+}
+
+/* Input */
+
+.login-form-group input {
+    width: 100%;
+    height: 25px;
+
+    padding: 0 8px;
+
+    border: 1px solid #d9dee7;
+    border-radius: 4px;
+
+    outline: none;
+
+    font-size: 10px;
+
+    box-sizing: border-box;
+}
+
+.login-form-group input:focus {
+    border-color: #397bea;
+}
+
+/* Bouton */
+
+.login-button {
+    width: 100%;
+    height: 32px;
+
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 4px;
+
+    background-color: #102f63;
+
+    color: white;
+
+    font-size: 10px;
+
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #17427f;
+}
+
+
+/* =========================
+   DASHBOARD
+========================= */
+
+.dashboard {
+    min-height: calc(100vh - 65px);
+    background-color: white;
+    padding: 28px 40px;
+}
+
+.dashboard-content {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 25px 0;
+    color: #111827;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 1.5fr;
+    gap: 20px;
+    align-items: stretch;
+}
+
+.dashboard-card {
+    background-color: #DBEAFE;
+    border-radius: 8px;
+    min-height: 120px;
+    padding: 18px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.dashboard-card:hover {
+    background-color: #bfdbfe;
+    transform: translateY(-2px);
+}
+
+.dashboard-card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #1f2937;
+}
+
+.dashboard-card span {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.dashboard-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.dashboard-info-card {
+    background-color: #DBEAFE;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.dashboard-info-card h2 {
+    margin: 0 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.dashboard-info-card p {
+    margin: 0 0 8px;
+    color: #374151;
+    font-size: 14px;
+}
+
+.dashboard-info-card strong {
+    color: #12376B;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+    .dashboard {
+        padding: 24px 18px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .dashboard-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-card {
+        min-height: 100px;
+    }
+}
+
+
+/* =========================
+   GRAPH / STATISTICS
+========================= */
+
+.dashboard-chart {
+    min-height: 120px;
+
+    background-color: #DBEAFE;
+
+    border: 2px solid #008cff;
+    border-radius: 12px;
+}
+
+
+/* =========================
+   OFFERS
+========================= */
+
+.offers-page {
+    min-height: calc(100vh - 65px);
+    background-color: #ffffff;
+    padding: 35px 40px;
+}
+
+.offers-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.offers-title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.offers-subtitle {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+
+/* =========================
+   OFFERS GRID
+========================= */
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+
+/* =========================
+   OFFER CARD
+========================= */
+
+.offer-card {
+    min-height: 220px;
+    padding: 22px;
+
+    background-color: #DBEAFE;
+
+    border-radius: 14px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.offer-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-badge {
+    background-color: white;
+    color: #0755c7;
+
+    padding: 5px 12px;
+
+    border-radius: 20px;
+
+    font-size: 12px;
+}
+
+.offer-discount {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0755c7;
+}
+
+
+/* TITLE */
+
+.offer-card h2 {
+    margin: 25px 0 10px;
+
+    font-size: 20px;
+    font-weight: 500;
+
+    color: #111827;
+}
+
+
+/* DESCRIPTION */
+
+.offer-description {
+    margin: 0;
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: #374151;
+}
+
+
+/* FOOTER */
+
+.offer-footer {
+    margin-top: auto;
+
+    padding-top: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-expiration {
+    font-size: 11px;
+    color: #6b7280;
+}
+
+
+/* BUTTON */
+
+.offer-button {
+    border: none;
+
+    background-color: #12376B;
+    color: white;
+
+    padding: 9px 18px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-size: 13px;
+}
+
+.offer-button:hover {
+    opacity: 0.9;
+}
+
+.offer-button-used,
+.offer-button-used:hover {
+    background-color: #64748b;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.offer-message {
+    min-height: 20px;
+    margin-top: 20px;
+    color: #166534;
+    font-size: 14px;
+}
+
+
+/* =========================
+   PROFILE
+========================= */
+
+.profile-page {
+    min-height: calc(100vh - 65px);
+    background-color: #ffffff;
+    padding: 35px 40px;
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.profile-title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.profile-subtitle {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #6b7280;
+}
+
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.profile-card {
+    background-color: #DBEAFE;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+
+/* =========================
+   PROFILE HEADER
+========================= */
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding-bottom: 25px;
+    border-bottom: 1px solid #bfdbfe;
+}
+
+.profile-avatar {
+    width: 75px;
+    height: 75px;
+
+    border-radius: 50%;
+
+    background-color: #12376B;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.profile-header h2 {
+    margin: 0;
+
+    font-size: 23px;
+    font-weight: 500;
+
+    color: #111827;
+}
+
+.profile-header p {
+    margin: 5px 0 0;
+
+    font-size: 14px;
+    color: #6b7280;
+}
+
+
+/* =========================
+   PROFILE INFORMATION
+========================= */
+
+.profile-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    padding: 30px 0;
+}
+
+.profile-field {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.profile-field label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.profile-field p {
+    margin: 0;
+
+    font-size: 15px;
+    color: #111827;
+}
+
+.profile-field input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #d9dee7;
+    border-radius: 6px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #111827;
+    outline: none;
+}
+
+.profile-field input:focus {
+    border-color: #397bea;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.profile-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.profile-message {
+    min-height: 18px;
+    margin: 0;
+    font-size: 13px;
+}
+
+.profile-message-success {
+    color: #166534;
+}
+
+.profile-message-error {
+    color: #b91c1c;
+}
+
+.profile-button {
+    border: none;
+
+    background-color: #12376B;
+    color: white;
+
+    padding: 11px 20px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.profile-button:hover {
+    opacity: 0.9;
+}
+
+@media (max-width: 700px) {
+    .profile-page {
+        padding: 24px 18px;
+    }
+
+    .profile-info {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+}
+
+
+/* =========================
+   CREDIT
+========================= */
+
+.credit-page {
+    min-height: calc(100vh - 65px);
+    background-color: white;
+    padding: 35px 40px;
+}
+
+.credit-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.credit-title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.credit-subtitle {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.credit-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.credit-form-card,
+.credit-result-card {
+    background-color: #DBEAFE;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.credit-form-card h2,
+.credit-result-card h2 {
+    margin: 0 0 25px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #111827;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.credit-field {
+    margin-bottom: 20px;
+}
+
+.credit-field label {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    color: #374151;
+}
+
+.credit-field input,
+.credit-field select {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 12px;
+
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+
+    background-color: white;
+
+    font-size: 14px;
+    outline: none;
+}
+
+.credit-field input:focus,
+.credit-field select:focus {
+    border-color: #008cff;
+}
+
+
+/* =========================
+   INPUT UNIT
+========================= */
+
+.input-with-unit {
+    position: relative;
+}
+
+.input-with-unit input {
+    padding-right: 55px;
+}
+
+.input-with-unit span {
+    position: absolute;
+
+    right: 15px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 13px;
+    color: #6b7280;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+.credit-button {
+    width: 100%;
+
+    margin-top: 10px;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #12376B;
+    color: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.credit-button:hover {
+    opacity: 0.9;
+}
+
+
+/* =========================
+   RESULT
+========================= */
+
+.credit-result {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.result-placeholder {
+    margin: 0;
+
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   MAIN RESULT
+========================= */
+
+.result-main {
+    text-align: center;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.result-main span {
+    display: block;
+
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.result-main strong {
+    display: block;
+
+    margin-top: 8px;
+
+    font-size: 30px;
+    font-weight: 500;
+
+    color: #12376B;
+}
+
+
+/* =========================
+   RESULT LINES
+========================= */
+
+.result-line {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 14px 0;
+
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.result-line span {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.result-line strong {
+    font-size: 13px;
+    font-weight: 500;
+    color: #111827;
+}
+
+
+/* =========================
+   TOTAL
+========================= */
+
+.result-total {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+    padding-top: 15px;
+
+    border-top: 2px solid #bfdbfe;
+}
+
+.result-total span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.result-total strong {
+    font-size: 14px;
+    color: #12376B;
+}
+
+
+.historique-page {
+    min-height: calc(100vh - 65px);
+    background-color: #ffffff;
+    padding: 35px 40px;
+}
+
+.historique-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.historique-title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: #111827;
+}
+
+.historique-subtitle {
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #6b7280;
+}
+
+.historique-card {
+    background-color: #DBEAFE;
+    border-radius: 15px;
+    padding: 25px;
+    overflow-x: auto;
+}
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.transactions-table th,
+.transactions-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+.transactions-table th {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b7280;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.transactions-table td {
+    font-size: 14px;
+    color: #111827;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.transactions-table tr:last-child td {
+    border-bottom: none;
+}
+
+.amount-positive {
+    color: #16a34a !important;
+    font-weight: 500;
+}
+
+.amount-negative {
+    color: #dc2626 !important;
+    font-weight: 500;
+}
+
+.empty-history {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center;
+    color: #6b7280;
+}
+
+
+.rewards-page {
+    min-height: calc(100vh - 68px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+
+    background-color: #f8fafc;
+}
+
+.rewards-page h1 {
+    color: #102f63;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.rewards-description {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+
+/* Spinner */
+
+.spinner-container {
+    position: relative;
+
+    width: 320px;
+    height: 320px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Roue */
+
+.wheel {
+    position: relative;
+
+    width: 280px;
+    height: 280px;
+
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: conic-gradient(
+        #2563eb 0deg 45deg,
+        #60a5fa 45deg 90deg,
+        #1d4ed8 90deg 135deg,
+        #93c5fd 135deg 180deg,
+        #2563eb 180deg 225deg,
+        #60a5fa 225deg 270deg,
+        #1d4ed8 270deg 315deg,
+        #93c5fd 315deg 360deg
+    );
+
+    border: 8px solid white;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    transition: transform 4s cubic-bezier(0.17, 0.67, 0.12, 0.99);
+}
+
+
+/* Textes de la roue */
+
+.wheel-item {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 25px;
+
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* Position des textes */
+
+.item-1 {
+    transform: rotate(0deg);
+}
+
+.item-2 {
+    transform: rotate(45deg);
+}
+
+.item-3 {
+    transform: rotate(90deg);
+}
+
+.item-4 {
+    transform: rotate(135deg);
+}
+
+.item-5 {
+    transform: rotate(180deg);
+}
+
+.item-6 {
+    transform: rotate(225deg);
+}
+
+.item-7 {
+    transform: rotate(270deg);
+}
+
+.item-8 {
+    transform: rotate(315deg);
+}
+
+
+/* Flèche */
+
+.spinner-arrow {
+    position: absolute;
+
+    top: -5px;
+
+    z-index: 10;
+
+    font-size: 30px;
+
+    color: #102f63;
+}
+
+
+/* Bouton */
+
+.spin-button {
+    margin-top: 25px;
+
+    width: 140px;
+    height: 42px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #102f63;
+
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.spin-button:hover {
+    background-color: #17427f;
+}
+
+.spin-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+
+/* Résultat */
+
+.reward-result {
+    margin-top: 20px;
+
+    color: #102f63;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+
+/* =========================
+   TABLETTE
+========================= */
+
+@media (max-width: 900px) {
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .navbar-links {
+        gap: 15px;
+    }
+
+    .navbar-links a {
+        font-size: 16px;
+    }
+
+    .logout-btn {
+        width: 110px;
+        font-size: 16px;
+    }
+
+
+    /* ---------- REGISTER ---------- */
+
+    .register-content {
+        max-width: 260px;
+    }
+
+    .register-content h1 {
+        font-size: 28px;
+    }
+
+
+    /* ---------- LOGIN ---------- */
+
+    .login-content {
+        width: 70%;
+        max-width: 300px;
+    }
+
+    .login-content h1 {
+        font-size: 28px;
+    }
+
+
+    /* ---------- OFFERS ---------- */
+
+    .offers-page {
+        padding: 30px 20px;
+    }
+
+    .offers-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+
+    /* ---------- CREDIT ---------- */
+
+    .credit-page {
+        padding: 30px 20px;
+    }
+
+    .credit-content {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* ---------- HISTORY ---------- */
+
+    .historique-page {
+        padding: 30px 20px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+
+      .navbar {
+        position: relative;
+
+        width: 100%;
+        height: 68px;
+
+        padding: 0 15px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /* Logo */
+
+    .navbar-logo {
+        width: auto;
+
+        font-size: 20px;
+        line-height: 17px;
+    }
+
+
+    /* Burger */
+
+    .menu-button {
+        display: block;
+
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+
+    /* Links */
+
+    .navbar-links {
+        display: none;
+
+        position: absolute;
+
+        top: 68px;
+        left: 0;
+
+        width: 100%;
+
+        margin: 0;
+
+        padding: 15px 0;
+
+        background-color: #dbeafe;
+
+        flex-direction: column;
+        align-items: center;
+
+        gap: 20px;
+
+        z-index: 1000;
+    }
+
+
+    /* Menu ouvert */
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+
+    .navbar-links a {
+        font-size: 17px;
+    }
+
+
+    /* Logout */
+
+    .logout-btn {
+        width: 90px;
+        height: 36px;
+
+        font-size: 14px;
+    }
+
+    /* ---------- REGISTER ---------- */
+
+    .register-container {
+        min-height: 100vh;
+
+        flex-direction: column;
+
+        background-image: none;
+    }
+
+    .register-image {
+        width: 100%;
+        height: 35vh;
+        min-height: 250px;
+
+        background-image: url("./images/register.png");
+        background-size: cover;
+        background-position: center;
+
+        flex-shrink: 0;
+    }
+
+    .register-form {
+        width: 100%;
+        min-height: 65vh;
+
+        padding: 30px 20px;
+    }
+
+    .register-content {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .register-content h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-group input {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .register-button {
+        height: 42px;
+        font-size: 13px;
+    }
+
+
+    /* ---------- LOGIN ---------- */
+
+    .login-container {
+        min-height: 100vh;
+
+        flex-direction: column;
+
+        background-image: none;
+    }
+
+    .login-image {
+        width: 100%;
+        height: 35vh;
+        min-height: 250px;
+
+        background-image: url("./images/login.png");
+        background-size: cover;
+        background-position: center;
+
+        flex-shrink: 0;
+    }
+
+    .login-form-container {
+        width: 100%;
+        min-height: 65vh;
+
+        padding: 30px 20px;
+    }
+
+    .login-content {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .login-content h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .login-form-group {
+        margin-bottom: 20px;
+    }
+
+    .login-form-group label {
+        font-size: 11px;
+    }
+
+    .login-form-group input {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .login-button {
+        height: 42px;
+        font-size: 13px;
+    }
+
+
+    /* ---------- DASHBOARD ---------- */
+
+    .dashboard {
+        padding: 25px 15px;
+    }
+
+    .dashboard-title {
+        font-size: 22px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .dashboard-card {
+        min-height: 100px;
+    }
+
+
+    /* ---------- OFFERS ---------- */
+
+    .offers-page {
+        padding: 25px 15px;
+    }
+
+    .offers-title {
+        font-size: 24px;
+    }
+
+    .offers-subtitle {
+        font-size: 14px;
+    }
+
+    .offers-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .offer-card {
+        min-height: 200px;
+        padding: 18px;
+    }
+
+
+    /* ---------- PROFILE ---------- */
+
+    .profile-page {
+        padding: 25px 15px;
+    }
+
+    .profile-title {
+        font-size: 24px;
+    }
+
+    .profile-card {
+        padding: 20px;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .profile-button {
+        width: 100%;
+    }
+
+
+    /* ---------- CREDIT ---------- */
+
+    .credit-page {
+        padding: 25px 15px;
+    }
+
+    .credit-title {
+        font-size: 24px;
+    }
+
+    .credit-subtitle {
+        font-size: 14px;
+    }
+
+    .credit-content {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .credit-form-card,
+    .credit-result-card {
+        padding: 20px;
+    }
+
+
+    /* ---------- HISTORIQUE ---------- */
+
+    .historique-page {
+        padding: 25px 15px;
+    }
+
+    .historique-title {
+        font-size: 24px;
+    }
+
+    .historique-card {
+        padding: 15px;
+    }
+
+    .transactions-table th,
+    .transactions-table td {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+
+    /* ---------- REWARDS ---------- */
+
+    .rewards-page {
+        min-height: calc(100vh - 120px);
+
+        padding: 25px 15px;
+
+        text-align: center;
+    }
+
+    .rewards-page h1 {
+        font-size: 25px;
+    }
+
+    .rewards-description {
+        font-size: 14px;
+
+        margin-bottom: 20px;
+    }
+
+    .spinner-container {
+        width: 280px;
+        height: 280px;
+    }
+
+    .wheel {
+        width: 240px;
+        height: 240px;
+    }
+
+    .wheel-item {
+        font-size: 11px;
+        padding-top: 22px;
+    }
+
+    .spinner-arrow {
+        font-size: 25px;
+        top: 0;
+    }
+
+    .spin-button {
+        width: 130px;
+        height: 40px;
+
+        margin-top: 20px;
+
+        font-size: 14px;
+    }
+
+    .reward-result {
+        font-size: 14px;
+
+        max-width: 300px;
+    }
+
+}
+
+
+/* =========================
+   PETIT MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    /* Navbar */
+
+    .navbar-links {
+        gap: 15px;
+    }
+
+    .navbar-links a {
+        font-size: 14px;
+    }
+
+    .logout-btn {
+        width: 90px;
+        font-size: 14px;
+    }
+
+
+    /* Spinner */
+
+    .spinner-container {
+        width: 240px;
+        height: 240px;
+    }
+
+    .wheel {
+        width: 210px;
+        height: 210px;
+    }
+
+    .wheel-item {
+        font-size: 10px;
+        padding-top: 18px;
+    }
+
+    .spinner-arrow {
+        font-size: 22px;
+    }
+
+    .spin-button {
+        width: 120px;
+    }
+}
